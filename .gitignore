@@ -8,6 +8,9 @@ dist-ssr/
 .coverage
 .nyc_output
 build/
+dist/
+dist-ssr/
+*.out
 .env.local
 .env.*.local
 
@@ -23,6 +26,32 @@ pids
 # Dependency directories
 bower_components/
 jspm_packages/
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage/
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+git/
+.mypy_cache/
+.doxypy/
+dotpy/
+data/
+.ai-service/
+.backend/
+.frontend/
 
 # TypeScript v1 declaration files
 typings/
@@ -32,6 +61,62 @@ typings/
 
 # Optional npm cache directory
 .npm
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+eggs/
+parts/
+bin/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.installer.log
+pip-log.txt
+pip-delete-this-directory.txt
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis
+.pytest_cache/
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.Python
+env-dev/
+pip-selfcheck.json
+.tox/
+nox/
+.oxypy
+.reproject
+.rpd2
+.rpb2
+.pybuild
+.MANIFEST
+.pydevproject
+.pyrightconfig.json
+.ruby-version
 
 # Optional eslint cache
 .eslintcache
@@ -81,3 +166,21 @@ docker-compose.override.yml
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Data directories
+data/
+ai-service/data/
+
+# Logs
+*.log
+
+# Cache directories
+.rpt2_cache/
+.rts2_cache_*
+.node_temp/
+.dynamodb/
